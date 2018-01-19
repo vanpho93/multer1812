@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <!-- <div class="container">
         <h3>Add new singer</h3>
         <form action="/upload" method="post" class="form-group" style="width: 60%" enctype="multipart/form-data">
             <div class="form-group">
@@ -21,6 +21,46 @@
             <div class="form-group">
                 <label for="image">Image:</label>
                 <input type="file" name="avatar">
+            </div>
+            <div class="form-group">
+                <label for="link">Link:</label>
+                <input type="text" name="link" id="link" class="form-control" placeholder="Your link here">
+            </div>
+            <button type="submit" class="btn btn-success">Add Singer</button>
+        </form>
+    </div> -->
+    <!-- <div class="container">
+        <h3>Add new singer</h3>
+        <form action="/uploadArray" method="post" class="form-group" style="width: 60%" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Your name here">
+            </div>
+            <div class="form-group">
+                <label for="image">Image:</label>
+                <input type="file" name="hinhSanPham" multiple>
+            </div>
+            <div class="form-group">
+                <label for="link">Link:</label>
+                <input type="text" name="link" id="link" class="form-control" placeholder="Your link here">
+            </div>
+            <button type="submit" class="btn btn-success">Add Singer</button>
+        </form>
+    </div> -->
+    <div class="container">
+        <h3>Add new singer</h3>
+        <form action="/uploadFields" method="post" class="form-group" style="width: 60%" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Your name here">
+            </div>
+            <div class="form-group">
+                <label for="image">Main image:</label>
+                <input type="file" name="hinhChinh">
+            </div>
+            <div class="form-group">
+                <label for="image">Image:</label>
+                <input type="file" name="hinhPhu" multiple>
             </div>
             <div class="form-group">
                 <label for="link">Link:</label>
